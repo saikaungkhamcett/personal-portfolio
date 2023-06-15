@@ -30,7 +30,7 @@ export const Projects = () => {
   const metaCard = [
     {
       title: "Meta",
-      description: "Diploma in Info Tech",
+      description: "Meta Front-End Developer Professional Certificate",
       imgUrl: courserameta,
     },
   ];
@@ -60,7 +60,7 @@ export const Projects = () => {
 
                   <Tab.Content id="slideInUp" >
                     <Tab.Pane eventKey="first">
-                      <Row>
+                      <Row className="row-container">
                         {
                           kaplanCard.map((project, index) => {
                             return (
@@ -76,7 +76,7 @@ export const Projects = () => {
                     </Tab.Pane>
 
                     <Tab.Pane eventKey="second">
-                      <Row>                       
+                      <Row className="row-container">                       
                         {
                           usfCard.map((project, index) => {
                             return (
@@ -87,12 +87,12 @@ export const Projects = () => {
                             )
                           })
                         }
-                      <p> adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>                       
+                      <p> Pursued a Bachelor's degree in General Studies, where I dedicated my studies to the field of Computer Science. Throughout my academic journey, I delved into a diverse range of subjects while focusing on various aspects of computer science, including programming, algorithms, data structures, and software development. </p>                       
                       </Row>
                     </Tab.Pane>
 
                     <Tab.Pane eventKey="third">
-                      <Row>                       
+                      <Row className="row-container">                       
                         {
                           metaCard.map((project, index) => {
                             return (
@@ -103,7 +103,7 @@ export const Projects = () => {
                             )
                           })
                         }
-                      <p> adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>                       
+                      <p>Pursued a certification in a specialized Meta Front End Development course with a specific focus on React. Through comprehensive lessons and practical projects, I gained a deep understanding of React's core concepts, component-based architecture, state management, and advanced techniques. </p>                       
                       </Row>
                     </Tab.Pane>
 
