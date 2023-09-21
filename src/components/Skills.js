@@ -1,6 +1,6 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+//import meter1 from "../assets/img/meter1.svg";
+//import meter2 from "../assets/img/meter2.svg";
+//import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import java from "../assets/img/java.png";
@@ -13,8 +13,8 @@ import react from "../assets/img/react.png";
 import react_native from "../assets/img/react_native.png";
 import asp_net from "../assets/img/asp.png";
 import php from "../assets/img/php.png";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
+//import arrow1 from "../assets/img/arrow1.svg";
+//import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -48,46 +48,46 @@ export const Skills = () => {
                         <h5>Programming languages</h5>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                         <div className="item">
-                                <img src={java} alt="Image" />
+                                <img src={java} alt="Java" />
                                 <h5>Java</h5>
                             </div>
                             <div className="item">
-                                <img src={javascript} alt="Image" />
+                                <img src={javascript} alt="Javascript" />
                                 <h5>Javascript</h5>
                             </div>
                             <div className="item">
-                                <img src={php} alt="Image" />
+                                <img src={php} alt="Php" />
                                 <h5>PHP</h5>
                             </div>                          
                             <div className="item">
-                                <img src={python} alt="Image" />
+                                <img src={python} alt="Python" />
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <img src={c} alt="Image" />
+                                <img src={c} alt="C#" />
                                 <h5>C#</h5>
                             </div>
                         </Carousel>
                         <h5>Web Development</h5>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={html5} alt="Image" />
+                                <img src={html5} alt="HTML" />
                                 <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={css_logo} alt="Image" />
+                                <img src={css_logo} alt="CSS" />
                                 <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={react} alt="Image" />
+                                <img src={react} alt="React" />
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={asp_net} alt="Image" />
+                                <img src={asp_net} alt="ASP.NET" />
                                 <h5>ASP.NET</h5>
                             </div>
                             <div className="item">
-                                <img src={react_native} alt="Image" />
+                                <img src={react_native} alt="React Native" />
                                 <h5>React Native</h5>
                             </div>
                         </Carousel>
@@ -95,7 +95,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="background" />
     </section>
   )
 }

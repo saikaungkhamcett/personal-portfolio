@@ -10,17 +10,10 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [index, setIndex] = useState(1);
+  //const [index, setIndex] = useState(1);
+
   const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
   const period = 500;
-
-  useEffect(() => {
-    let ticker = setInterval(() => {
-      tick();
-    }, delta);
-
-    return () => { clearInterval(ticker) };
-  }, [text])
 
   const tick = () => {
     let i = loopNum % toRotate.length;
@@ -35,17 +28,27 @@ export const Banner = () => {
 
     if (!isDeleting && updatedText === fullText) {
       setIsDeleting(true);
-      setIndex(prevIndex => prevIndex - 1);
+      //setIndex(prevIndex => prevIndex - 1);
       setDelta(period);
     } else if (isDeleting && updatedText === '') {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
-      setIndex(1);
+      //setIndex(1);
       setDelta(100);
-    } else {
-      setIndex(prevIndex => prevIndex + 1);
-    }
+    } //else {
+      //setIndex(prevIndex => prevIndex + 1);
+    //}
   }
+
+  useEffect(() => {
+    let ticker = setInterval(() => {
+      tick();
+    }, delta);
+
+    return () => { clearInterval(ticker) };
+  }, [text])
+
+
 
   return (
     <section className="banner" id="home">

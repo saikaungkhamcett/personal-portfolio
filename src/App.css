@@ -31,11 +31,11 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: #f9f4ef !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
-
+color
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
@@ -89,17 +89,17 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
+  justify-content: end;
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
-  color: #fff !important;
+  color: #020826 !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -120,7 +120,7 @@ span.navbar-text {
 .social-icon a {
     width: 42px;
     height: 42px;
-    background: rgba(217, 217, 217, 0.1);
+    background:#8c7851;
     display: inline-flex;
     border-radius: 50%;
     margin-right: 6px;
@@ -158,7 +158,7 @@ span.navbar-text {
   font-size: 18px;
   margin-left: 18px;
 	position: relative;
-	background-color: transparent;
+  background-color: #8c7851;
 	transition: 0.3s ease-in-out;
 }
 .navbar-text button span {
@@ -176,7 +176,8 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
-  color: #121212;
+  background-color: #fff;
+  color: #020826;
 }
 .navbar-text button:hover::before {
 	content: "";
@@ -234,20 +235,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #f9f4ef;
 }
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  background-color: #8c7851;
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
+  color: #fffffe;
 }
 .banner h1 {
   font-size: 65px;
@@ -257,15 +256,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 20px;
   display: block;
 }
+.banner h2, h3 {
+  color:#020826;
+}
+
 .banner p {
-  color: #B8B8B8;
+  color: #716040;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
 }
 .banner button {
-  color: #fff;
+  color: #8c7851;
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
@@ -306,9 +309,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  background-color: #fffffe;
 }
 .skill-bx {
-  background: #151515;
+  background: #eaddcf;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -317,6 +321,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill h2 {
 	font-size: 45px;
 	font-weight: 700;
+  color: #020826;
+}
+.skill h5 {
+  color: #716040;
 }
 .skill p {
     color: #B8B8B8;
@@ -331,7 +339,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill-slider .item img {
   height: 100px;
-  width: auto;
+  max-width: 100px;
   margin: 0 auto 15px auto;
 }
 .background-image-left {
@@ -347,15 +355,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: #f9f4ef;
 }
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+  color: #020826;
 }
 .project p {
-  color: #B8B8B8;
+  color: #716040;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -367,17 +376,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
-  background-color: rgb(255 255 255 / 10%);
+  background-color: #eaddcf;
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 50%;
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
-  color: #fff;
+  color: #020826;
   width: 100%;
   font-size: 17px;
   letter-spacing: 0.8px;
@@ -392,7 +401,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: #8c7851;
     top: 0;
     left: 0;
     z-index: -1;
@@ -416,6 +425,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
+
+#slideInUp {
+  margin: 0 auto;
+}
+
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
@@ -426,7 +440,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  /*background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);*/
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -477,7 +491,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   justify-content: space-between;
 }
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: #8c7851;
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -521,18 +535,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 14px 48px;
   font-size: 18px;
   margin-top: 25px;
-  border-radius: 0;
   position: relative;
   transition: 0.3s ease-in-out;
+  border-radius: 20px;
 }
 .contact form button span {
   z-index: 1;
   position: relative;
 }
 .contact form button:hover {
+  
+  border-radius: 20px;
   color: #fff;
 }
 .contact form button::before {
+  
+  border-radius: 20px;
   content: "";
   background: #121212;
   width: 0;
@@ -544,16 +562,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
 }
 .contact form button:hover::before {
+  
+  border-radius: 20px;
   width: 100%;
 }
 
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #f9f4ef;
 }
 .newsletter-bx {
   background: #FFFFFF;
@@ -608,7 +625,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 15px;
 }
 .new-email-bx button {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  /*background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);*/
   padding: 20px 65px;
   color: #fff;
   font-weight: 500;
@@ -621,7 +638,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #B8B8B8;
+  color: #716040;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }

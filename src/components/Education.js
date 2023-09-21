@@ -3,8 +3,6 @@ import { ProjectCard } from "./ProjectCard";
 import kaplan from "../assets/img/kaplan.jpg";
 import usf from "../assets/img/usf.jpg";
 import courserameta from "../assets/img/courserameta.jpg";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -49,9 +47,6 @@ export const Projects = () => {
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link className="custom-cursor" eventKey="first">2015</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link className="custom-cursor" eventKey="second">2017-2022</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link className="custom-cursor" eventKey="third">2023</Nav.Link>
@@ -114,7 +109,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt=""></img>
     </section>
   )
 }
