@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.1551a62b.css",
-    "main.js": "/personal-portfolio/static/js/main.0f3a6319.js",
+    "main.css": "/personal-portfolio/static/css/main.e0cdaf69.css",
+    "main.js": "/personal-portfolio/static/js/main.f1e88195.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/studying.png": "/personal-portfolio/static/media/studying.e9fc73946fc100a3cbdb.png",
     "static/media/lotus-pose.png": "/personal-portfolio/static/media/lotus-pose.70017965aa423b42f69d.png",
@@ -10,6 +10,7 @@
     "static/media/laptop-wave.png": "/personal-portfolio/static/media/laptop-wave.24ff1c9dc66295b3c00d.png",
     "static/media/waving.png": "/personal-portfolio/static/media/waving.9770f9b9fb812fadcf99.png",
     "static/media/sunglasses-emoji.png": "/personal-portfolio/static/media/sunglasses-emoji.671d32066ba2bb81b82d.png",
+    "static/media/Sai_Cett_Resume.pdf": "/personal-portfolio/static/media/Sai_Cett_Resume.ef24840e9d8e6779fd65.pdf",
     "static/media/CentraNo2-Bold.ttf": "/personal-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/personal-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/personal-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -33,12 +34,12 @@
     "index.html": "/personal-portfolio/index.html",
     "static/media/nav-icon1.svg": "/personal-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/personal-portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.1551a62b.css.map": "/personal-portfolio/static/css/main.1551a62b.css.map",
-    "main.0f3a6319.js.map": "/personal-portfolio/static/js/main.0f3a6319.js.map",
+    "main.e0cdaf69.css.map": "/personal-portfolio/static/css/main.e0cdaf69.css.map",
+    "main.f1e88195.js.map": "/personal-portfolio/static/js/main.f1e88195.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1551a62b.css",
-    "static/js/main.0f3a6319.js"
+    "static/css/main.e0cdaf69.css",
+    "static/js/main.f1e88195.js"
   ]
 }
