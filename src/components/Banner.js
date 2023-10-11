@@ -4,6 +4,7 @@ import headerImg from "../assets/img/lotus-pose.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import resumePdf from '../assets/pdf/Sai_Cett_Resume.pdf';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -12,7 +13,7 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   //const [index, setIndex] = useState(1);
 
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = ["Software Engineer", "Web Developer"];
   const period = 500;
 
   const tick = () => {
@@ -48,6 +49,14 @@ export const Banner = () => {
     return () => { clearInterval(ticker) };
   }, [text])
 
+  const handleDownload = () => {
+    window.open(resumePdf, '_blank');
+    /*const link = document.createElement('a');
+    link.href = resumePdf;
+    link.download = 'myFile.pdf';
+    link.click();
+    link.remove();*/
+  };
 
 
   return (
@@ -58,11 +67,11 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h2>{`Hi! I'm Sai Kaung Kham Cett.`} </h2>
+                <span className="tagline">Curtains up! Explore my array of projects.</span>
+                <h2>{`Some call me awesome, but you can call me Sai.`} </h2>
                 <h3><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h3>
                   <p>I'm a results-drive software developer with expertise web application development. Seeking a challenging role at an industry-leading company.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={handleDownload}>Embark on my professional journey. Grab my resume! <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

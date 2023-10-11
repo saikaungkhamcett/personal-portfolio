@@ -49,7 +49,7 @@ export const Projects = () => {
                       <Nav.Link className="custom-cursor" eventKey="first">2015</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link className="custom-cursor" eventKey="third">2023</Nav.Link>
+                      <Nav.Link className="custom-cursor" eventKey="second">2022</Nav.Link>
                     </Nav.Item>
                   </Nav>
 
